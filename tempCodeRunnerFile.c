@@ -1,0 +1,2 @@
+    pqueue_pop(&myPque);
+    }
