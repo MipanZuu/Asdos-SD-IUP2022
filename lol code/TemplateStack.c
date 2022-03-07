@@ -77,5 +77,44 @@ int main(int argc, char const *argv[])
     
     Stack myStack;
     stack_init(&myStack);
+     while (1)
+        {
+        int a, arr[1001];
+        
+        scanf("%d", &a);
+        
+        if (a==0) {
+         return 0;
+     }
+        for (int n = 1; n <= a; n++) {
+            scanf("%d", &arr[n]);
+        }
+        int counter = 1;
+        bool tr = true;
+
+        for (int n = 1; n <= a; n++) {
+            if (arr[n] == counter) {
+                counter++;
+                } //if array is equal to counter so counter increment
+            else {
+                while (!stack_isEmpty(&myStack) && stack_top(&myStack) == counter) {
+                        stack_pop(&myStack);
+                        counter++;
+                    } //car top is equal to counter so car pop
+                while (!stack_isEmpty(&myStack) && stack_top(&myStack) < arr[n]) {
+                        tr = false;
+                        break;
+                }// car top is not equal to the real track (arr[n]) so "false" then break to the output
+                stack_push(&myStack, arr[n]);
+            } // end of else and push the arr[n]
+            
+        }
+
+        if (tr) {
+            printf("yes\n");
+        } else {
+            printf("no\n");
+        }
+        }
     return 0;
 }
