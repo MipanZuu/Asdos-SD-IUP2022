@@ -1,0 +1,7 @@
+6  
+hinzufugen 4 3
+hinzufugen 5 2
+gre 1
+ger 3
+subtrahieren 3
+gre 5	

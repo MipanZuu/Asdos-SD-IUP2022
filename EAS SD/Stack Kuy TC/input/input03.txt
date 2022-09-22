@@ -1,0 +1,11 @@
+10
+hinzufugen 1000 1000
+hinzufugen 1945 3213
+subtrahieren 213
+hinzufugen 8 1
+subtrahieren 300
+hinzufugen 17 21
+subtrahieren 221
+gre 19
+subtrahieren 109
+gre 2

@@ -1,0 +1,11 @@
+10
+hinzufugen 20 50
+hinzufugen 30 21
+hinzufugen 45 20
+subtrahieren 10
+ger 19
+subtrahieren 12
+gre 10
+subtrahieren 9
+gre 12
+hinzufugen 1 1

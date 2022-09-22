@@ -1,0 +1,11 @@
+10
+hinzufugen 3432 100
+hinzufugen 3500 3213
+subtrahieren 123
+hinzufugen 3333 123
+subtrahieren 321
+hinzufugen 3789 2321
+subtrahieren 201
+gre 3132
+subtrahieren 223
+gre 1232
